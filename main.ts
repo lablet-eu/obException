@@ -5,12 +5,11 @@ namespace obException {
      */
     //% blockId="obException_doTry"
     //% block="Run $tryBody and on error jump to $catchBody"
-    export function doTry(tryBody: () => void, catchBody: () => void){
+    export function doTry(tryBody: () => void):void{
         try{
             tryBody()
         }
         catch{
-            catchBody()
         }
     }
     /**

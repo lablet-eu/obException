@@ -1,5 +1,3 @@
 obException.doTry(function() {
     
-}, function() {
-    
 })
